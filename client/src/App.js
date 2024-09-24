@@ -58,7 +58,7 @@ function App() {
   }, [toastData]);
   return (
     <div>
-      <LoadingBar height={2} color="#00ADFF" ref={loadingref} />
+      <LoadingBar height={3} color="#00ADFF" ref={loadingref} />
       {/** accessing element with variable loadingref */}
       {/** an element which we use to denote loading */}
       <Toaster />
