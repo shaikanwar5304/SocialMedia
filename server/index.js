@@ -28,7 +28,7 @@ app.use(
   //to allow the frontend to access the backend
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://socialmedia-frontend-2s82.onrender.com",
   })
 );
 app.use("/auth", authRouter);
