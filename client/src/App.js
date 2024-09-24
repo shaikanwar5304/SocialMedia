@@ -73,8 +73,8 @@ function App() {
             <Route path="/updateProfile" element={<UpdateProfile />} />
             <Route path="/updatePost/:postId" element={<UpdatePost />} />
           </Route>
-          <Route path="*" element={<NotFound />} />
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
