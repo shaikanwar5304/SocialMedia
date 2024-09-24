@@ -45,13 +45,13 @@ function App() {
         break;
       case TOAST_CUSTOM:
         toast(toastData.message, {
-          duration: 1500,
+          duration: 1000,
           icon: toastData.icon,
         });
         break;
       default:
         toast(toastData?.message || "Something went wrong", {
-          duration: 15000,
+          duration: 1500,
         });
         break;
     }
